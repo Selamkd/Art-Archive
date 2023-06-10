@@ -43,7 +43,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
  padding:20px;
- padding-bottom:40px;
+ padding-bottom:20px;
 
 }
 .flex-child, head{
@@ -116,9 +116,7 @@ button{
   margin-bottom: 20px;;
 
 }
-.container{
-  position:relative;
-}
+
 a{
 text-decoration:none;
 color:white;
@@ -127,7 +125,8 @@ color:white;
  .container2{
     background-color: black;
    padding:20px;
-   flex-wrap: nowrap;
+   padding-top:20px;
+   flex-wrap: wrap;
     }
 .description-2{
   font-family: 'Mulish', sans-serif;
@@ -148,7 +147,6 @@ color:white;
      flex-shrink:1;
       flex-grow:1;
       opacity: 0.8;
-      max-width: min-content;
     }
     .picture1 :hover{
        border-radius: 30px;;
