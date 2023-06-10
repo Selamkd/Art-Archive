@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Michroma&family=Mulish:wght@300&family=Old+Standard+TT&family=Zilla+Slab+Highlight&display=swap');
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#efefef ;
+    padding-top:65px;
+    min-width: none;
+  }
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;;
+    align-items:center;
+    gap:10px;
+    font-family: 'Mulish', sans-serif;
+    background-color: black;
+    border-bottom: 2px solid;
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 99;
+  }
+  header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .nav-links{
+   display:flex;
+   align-self:center;
+    color:#efefef;
+    flex-shrink:1;
+  }
+  .logo{
+    flex-shrink:1;
+    flex-grow:0;
+  }
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+ padding:20px;
+ padding-bottom:40px;
+
+}
+.flex-child, head{
+  flex: 1;
+
+}
+
+flex-child,hero{
+  margin-right: 15px;
+
+}
+
+button{
+  float: right;
+  margin-right: 400px;;
+}
+.head{
+  flex-grow:1;
+  flex-shrink:0;
+}
+.hero{
+  flex-shrink:2;
+ 
+}
+.head{
+  font-size: 35px;;
+  font-family: 'Old Standard TT', serif;  
+  font-weight:bolder; 
+  margin:0 auto;
+}
+
+.description{
+
+  font-family: 'Mulish', sans-serif;
+  font-size:19px;
+  line-height: 3em;
+  max-width:fit-content;
+  margin:0 auto;
+  padding:20px;
+  opacity:0.8; 
+
+
+
+}
+#main{
+  border: inherit;
+  box-shadow: none;
+  border-radius:150px;
+  max-height:550px;
+  max-width: 600px;
+
+}
+
+.button{
+
+
+   max-width:170px;    
+}
+button{
+  background-color:black;
+  font-size:18px;
+  font-weight:700;
+  cursor:pointer;
+  outline:none;
+  font-family:'Mulish', sans-serif;
+  border-radius: 15px 10px;
+  border:5px black solid;
+  display: inline-block;
+  padding:10px;
+  margin-bottom: 20px;;
+
+}
+.container{
+  position:relative;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+ .container2{
+    background-color: black;
+   padding:20px;
+   flex-wrap: nowrap;
+    }
+.description-2{
+  font-family: 'Mulish', sans-serif;
+  color:#efefef;
+  font-size: 18px;;
+  opacity:0.75;
+  line-height: 1.8em;
+  padding:10px;
+  text-align:center;
+  max-width:fit-content;;
+  flex-wrap: nowrap;
+}
+    .picture-container{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-around;
+      flex-wrap:nowrap;
+     flex-shrink:1;
+      flex-grow:1;
+      opacity: 0.8;
+      max-width: min-content;
+    }
+    .picture1 :hover{
+       border-radius: 30px;;
+       border: 8px solid #efefef;
+       
+    }
+    .button2{
+      background-color: black;
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-end;
+ 
+  }
+  #button2{
+    font-family:'Mulish', sans-serif;
+    font-size:25px;
+    border: 2px solid #efefef;
+    padding:10px;
+    margin-bottom:10px;
+    margin-right:15px;
+  }
+  .container-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap:nowrap;
+    margin: 50px auto;
+    margin-top: 30px;
+  }
+
+
+.description-3{
+   display:flex;
+  font-family: 'Mulish', sans-serif;
+  color:darkgrey;
+  font-size: 18px;;
+  max-width:600px;
+  align-self: center;
+  flex-shrink:2;
+  flex-grow:0;
+  line-height:3em;
+}
+.hero2{
+    display:inline-flex;
+    align-self: center;
+    flex-grow:1;
+}
+.container-4{
+  background-image:url("background.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  flex-shrink: 1;
+  border:1px solid black;
+}
+.archive-logo{
+ 
+
+   max-height: 300px;;
+}
+footer{
+  background-color:#efefef;
+  color:black;
+  font-family: 'Mulish', sans-serif;
+}
+.footer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+background-color:#efefef;
+color:black;
+margin-top: 10px;;
+
+}
+
+
+ul, .location{
+  list-style:none;
+ 
+
+}
+
+button:hover{
+  background-color:white;
+  color:black;
+}
+a:hover{
+  color:black;
+}
